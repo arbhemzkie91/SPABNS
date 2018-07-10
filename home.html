@@ -1,0 +1,266 @@
+<html>
+
+<head>
+ 
+<body style="background-color:white"><center>
+
+<img src=innovation.png width=500 height=180>
+
+<meta charset="UTF-8">
+  
+<title>Online Shop</title>
+
+<style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      /* Clearing floats */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+/* Mini reset, no margins, paddings or bullets */
+.menu,
+.submenu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Main level */
+.menu {			
+  margin: 50px auto;
+  width: 800px;
+  /* http://www.red-team-design.com/horizontal-centering-using-css-fit-content-value */
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;	
+}
+
+.menu > li {
+  background: #34495e;
+  float: left;
+  position: relative;
+  transform: skewX(25deg);
+}
+
+.menu a {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Arial, Helvetica;
+  font-size: 14px;
+}		
+
+.menu li:hover {
+  background: #e74c3c;
+}		
+
+.menu > li > a {
+  transform: skewX(-25deg);
+  padding: 1em 2em;
+}
+
+/* Dropdown */
+.submenu {
+  position: absolute;
+  width: 200px;
+  left: 50%; margin-left: -100px;
+  transform: skewX(-25deg);
+  transform-origin: left top;
+}
+
+.submenu li {
+  background-color: #34495e;
+  position: relative;
+  overflow: hidden;		
+}						
+
+.submenu > li > a {
+  padding: 1em 2em;			
+}
+
+.submenu > li::after {
+  content: '';
+  position: absolute;
+  top: -125%;
+  height: 100%;
+  width: 100%;			
+  box-shadow: 0 0 50px rgba(0, 0, 0, .9);			
+}		
+
+/* Odd stuff */
+.submenu > li:nth-child(odd){
+  transform: skewX(-25deg) translateX(0);
+}
+
+.submenu > li:nth-child(odd) > a {
+  transform: skewX(25deg);
+}
+
+.submenu > li:nth-child(odd)::after {
+  right: -50%;
+  transform: skewX(-25deg) rotate(3deg);
+}				
+
+/* Even stuff */
+.submenu > li:nth-child(even){
+  transform: skewX(25deg) translateX(0);
+}
+
+.submenu > li:nth-child(even) > a {
+  transform: skewX(-25deg);
+}
+
+.submenu > li:nth-child(even)::after {
+  left: -50%;
+  transform: skewX(25deg) rotate(3deg);
+}
+
+/* Show dropdown */
+.submenu,
+.submenu li {
+  opacity: 0;
+  visibility: hidden;			
+}
+
+.submenu li {
+  transition: .2s ease transform;
+}
+
+.menu > li:hover .submenu,
+.menu > li:hover .submenu li {
+  opacity: 1;
+  visibility: visible;
+}		
+
+.menu > li:hover .submenu li:nth-child(even){
+  transform: skewX(25deg) translateX(15px);			
+}
+
+.menu > li:hover .submenu li:nth-child(odd){
+  transform: skewX(-25deg) translateX(-15px);			
+}
+
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <ul class="menu cf">
+  <li>
+
+<a href="home.html">HOME</a></li>
+  
+<li>
+<a href="home.html">CATEGORIES</a> 
+<ul class="submenu">
+      
+<li><a href="iphone.html">iPHONE</a></li>
+      
+<li><a href="samsung.html">Samsung</a></li>
+      
+<li><a href="oppo.html">OPPO</a></li>
+</ul></li>
+  			
+  
+<li><a href="product.html">PRODUCT</a></li>
+  
+<li><a href="contact.html">CONTACT US</a></li>
+  
+<li><a href="order.html">ORDER NOW</a></li>
+</ul>
+  
+    
+
+<hr color=#e74c3c size=2 width=1500>
+<script src="js/index.js"></script>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Made with WOW Slider - Create beautiful, responsive image sliders in a few clicks. Awesome skins and animations. Http://wowslider.net/" />
+	
+	
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+	
+</head>
+<body style="background-color:#d6d6d6;margin:auto">
+	
+	
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/samsung_galaxy_s8_plus_rose_pink.jpg" alt="Samsung Galaxy S8 Plus Rose Pink" title="Samsung Galaxy S8 Plus Rose Pink" id="wows1_0"/></li>
+		<li><img src="data1/images/huawei_honor_8_lite.jpg" alt="Huawei Honor 8 Lite" title="Huawei Honor 8 Lite" id="wows1_1"/></li>
+		<li><img src="data1/images/iphone_7_black.jpg" alt="iPHONE 7 BLACK" title="iPHONE 7 BLACK" id="wows1_2"/></li>
+		<li><img src="data1/images/iphone_7_red.jpg" alt="iPHONE 7 RED" title="iPHONE 7 RED" id="wows1_3"/></li>
+		<li><img src="data1/images/oppo_f3_plus_black.jpg" alt="OPPO F3 Plus Black" title="OPPO F3 Plus Black" id="wows1_4"/></li>
+		<li><img src="data1/images/oppo_r9s_plus_pink.jpg" alt="OPPO R9S Plus Pink" title="OPPO R9S Plus Pink" id="wows1_5"/></li>
+		<li><img src="data1/images/samsung_galaxy_a5_plus_gold.jpg" alt="Samsung Galaxy A5 Plus Gold" title="Samsung Galaxy A5 Plus Gold" id="wows1_6"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/samsung_galaxy_j7_plusblack.jpg" alt="wowslider" title="Samsung Galaxy J7 PlusBlack" id="wows1_7"/></a></li>
+		<li><img src="data1/images/samsung_galaxy_s8_plus_gray.jpg" alt="Samsung Galaxy S8 Plus Gray" title="Samsung Galaxy S8 Plus Gray" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Samsung Galaxy S8 Plus Rose Pink"><span><img src="data1/tooltips/samsung_galaxy_s8_plus_rose_pink.jpg" alt="Samsung Galaxy S8 Plus Rose Pink"/>1</span></a>
+		<a href="#" title="Huawei Honor 8 Lite"><span><img src="data1/tooltips/huawei_honor_8_lite.jpg" alt="Huawei Honor 8 Lite"/>2</span></a>
+		<a href="#" title="iPHONE 7 BLACK"><span><img src="data1/tooltips/iphone_7_black.jpg" alt="iPHONE 7 BLACK"/>3</span></a>
+		<a href="#" title="iPHONE 7 RED"><span><img src="data1/tooltips/iphone_7_red.jpg" alt="iPHONE 7 RED"/>4</span></a>
+		<a href="#" title="OPPO F3 Plus Black"><span><img src="data1/tooltips/oppo_f3_plus_black.jpg" alt="OPPO F3 Plus Black"/>5</span></a>
+		<a href="#" title="OPPO R9S Plus Pink"><span><img src="data1/tooltips/oppo_r9s_plus_pink.jpg" alt="OPPO R9S Plus Pink"/>6</span></a>
+		<a href="#" title="Samsung Galaxy A5 Plus Gold"><span><img src="data1/tooltips/samsung_galaxy_a5_plus_gold.jpg" alt="Samsung Galaxy A5 Plus Gold"/>7</span></a>
+		<a href="#" title="Samsung Galaxy J7 PlusBlack"><span><img src="data1/tooltips/samsung_galaxy_j7_plusblack.jpg" alt="Samsung Galaxy J7 PlusBlack"/>8</span></a>
+		<a href="#" title="Samsung Galaxy S8 Plus Gray"><span><img src="data1/tooltips/samsung_galaxy_s8_plus_gray.jpg" alt="Samsung Galaxy S8 Plus Gray"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+
+<br>
+<br>
+
+<video width="400" controls autoplay>
+  <source src="gadget.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+</video>
+
+
+<p>Advertisement</p>
+<br>
+<br>
+<a href=home.html><font color=e74c3c  >HOME</font></a>     |     <a href=product.html><font color=e74c3c  >PRODUCT</font></a>     |     <a href=contact.html><font color=e74c3c  >CONTACT</font></a>
+
+
+<hr color=#e74c3c size=2 width=1500>
+<br>
+<br>
+All Rights Reserved.
+<br>
+Saint Francis Xavier College
+<br>
+Copyright 2017 
+
+</script>
+</body>
+
+</html>
+
